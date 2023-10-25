@@ -1,0 +1,78 @@
+/* Write your code here. */
+
+.navbar-subclass-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9796f0;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+}
+
+.image-title-container {
+  display: flex;
+  margin-left: 30px;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.emoji-game-title {
+  padding: 0 5px 0 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.score-container {
+  display: flex;
+  margin-right: 30px;
+}
+
+.score-display {
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.top-score-display {
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  /* Write your code here. */
+
+  .image-title-container {
+    margin-left: 20px;
+  }
+
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .emoji-game-title {
+    padding: 0 5px 0 5px;
+  }
+
+  .score-container {
+    margin-right: 30px;
+  }
+
+  .score-display {
+    padding: 6px;
+  }
+
+  .top-score-display {
+    padding: 6px;
+  }
+}

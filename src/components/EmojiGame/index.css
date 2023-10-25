@@ -1,0 +1,46 @@
+/* Write your code here. */
+
+.emoji-game-container {
+  background: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+}
+
+.emoji-card-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.win-or-lost-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .emoji-card-container {
+    margin-top: 80px;
+    width: 80%;
+  }
+
+  .win-or-lost-container {
+    margin-top: 70px;
+  }
+}
